@@ -8,7 +8,6 @@ This repository contains a Jupyter Notebook for fine-tuning the LLaMA 2 large la
 ## Table of Contents
 
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Notebook Structure](#notebook-structure)
@@ -26,39 +25,41 @@ This repository contains a Jupyter Notebook for fine-tuning the LLaMA 2 large la
 
 ---
 
-## Prerequisites
+## Setup and Installation
 
-Ensure you have Python 3.8+ installed along with the following libraries:
+1. (Optional) Set up a virtual environment for better dependency management:
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
+   ```
+
+---
+
+2. Ensure you have Python 3.8+ installed along with the following libraries:
 ```bash
-pip install transformers datasets accelerate torch
+pip install -r requirements.txt
 ```
 
 You will also need a compatible GPU/TPU for efficient fine-tuning.
 
 ---
 
-## Setup and Installation
 
-1. Clone this repository:
+3. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/nafisrabbi/Fine_Tune_LLM.git
+   
    ```
 
-2. Install the required dependencies:
+4. Enter the directory:
    ```bash
-   pip install -r requirements.txt
+   cd "Fine_Tune_LLM"
+   
    ```
    
 
-3. (Optional) Set up a virtual environment for better dependency management:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows, use `env\Scripts\activate`
-   ```
 
----
 
 ## Usage
 
