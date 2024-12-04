@@ -89,13 +89,13 @@ You will also need a compatible GPU/TPU for efficient fine-tuning.
    Installing required libraries and verifying GPU/TPU setup for faster training.
 
 3. **Dataset Preparation**  
-   Loading datasets with `datasets` library and tokenizing text using `LlamaTokenizer`.
+   Loading datasets with `datasets` library and tokenizing text using `AutoTokenizer`.
 
 4. **Model Configuration**  
-   Initializing the LLaMA 2 model with `LlamaForCausalLM` and customizing hyperparameters.
+   Initializing the LLaMA 2 model with `AutoModelForCausalLM` and customizing hyperparameters.
 
 5. **Fine-Tuning Process**  
-   Utilizing `DataLoader` for batching, configuring optimizers, and setting learning schedules.
+   Set `SFTTrainer` for supervised fine-tuning parameters.
 
 6. **Evaluation and Inference**  
    Testing the fine-tuned model, generating predictions, and validating performance.
