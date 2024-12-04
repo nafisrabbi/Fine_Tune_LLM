@@ -34,19 +34,15 @@ This repository contains a Jupyter Notebook for fine-tuning the LLaMA 2 large la
 
    ```
 
----
-
 2. Ensure you have Python 3.8+ installed along with the following libraries:
    ```bash
    pip install -r requirements.txt
    ```
----
 
 3. Clone this repository:
    ```bash
    git clone https://github.com/nafisrabbi/Fine_Tune_LLM.git
    ```
----
 
 4. Enter the directory:
    ```bash
@@ -54,7 +50,7 @@ This repository contains a Jupyter Notebook for fine-tuning the LLaMA 2 large la
 
    ```
 ---
-   
+
 You will also need a compatible GPU/TPU for efficient fine-tuning.
 
 ---
